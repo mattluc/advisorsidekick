@@ -3,6 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Amazon KFFOWI</SelectedDevice>
     <DefaultDevice>VisualStudio_android-23_x86_phone</DefaultDevice>
-    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredDevice>Nexus 7 2013</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>

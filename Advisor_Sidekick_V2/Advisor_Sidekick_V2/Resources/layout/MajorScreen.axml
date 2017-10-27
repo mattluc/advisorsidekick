@@ -1,249 +1,248 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-  <LinearLayout
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <CheckBox
-      android:text="Accounting"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox1"
-      android:layout_marginRight="0.0dp" />
-    <CheckBox
-      android:text="Allied Health Sciences"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox2" />
-    <CheckBox
-      android:text="Anthropology"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox3" />
-    <CheckBox
-      android:text="Applied Sciences"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox4" />
-    <CheckBox
-      android:text="Art &amp; Design"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox5" />
-    <CheckBox
-      android:text="Biology"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox6" />
-    <CheckBox
-      android:text="Bluegrass, Old-Time and Country"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox7" />
-    <CheckBox
-      android:text="Chemistry"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox8" />
-    <CheckBox
-      android:text="Communication and Performance"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox9" />
-    <CheckBox
-      android:text="Community and Behavioral Health"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox10" />
-    <CheckBox
-      android:text="Computing"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox11" />
-    <CheckBox
-      android:text="Counseling and Human Services"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox12" />
-    <CheckBox
-      android:text="Criminal Justice and Criminology"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox13" />
-    <CheckBox
-      android:text="Digital Media"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox14" />
-    <CheckBox
-      android:text="Early Childhood Development"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox15" />
-    <CheckBox
-      android:text="Economics and Finance"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox16" />
-    <CheckBox
-      android:text="Educational Foundations / Special Education"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox17" />
-    <CheckBox
-      android:text="Engineering Technology and Surveying"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox18" />
-    <CheckBox
-      android:text="Environmental Health"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox19" />
-    <CheckBox
-      android:text="General Studies"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox20" />
-    <CheckBox
-      android:text="Geosciences"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox21" />
-    <CheckBox
-      android:text="Graphic Design"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox22" />
-    <CheckBox
-      android:text="Health Sciences"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox23" />
-    <CheckBox
-      android:text="History"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox24" />
-    <CheckBox
-      android:text="Human Services"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox25" />
-    <CheckBox
-      android:text="International Affairs"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox26" />
-    <CheckBox
-      android:text="Literature and Language"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox27" />
-    <CheckBox
-      android:text="Management"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox28" />
-    <CheckBox
-      android:text="Marketing"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox29" />
-    <CheckBox
-      android:text="Mathematics"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox30" />
-    <CheckBox
-      android:text="Media and Communication"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox31" />
-    <CheckBox
-      android:text="Music"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox32" />
-    <CheckBox
-      android:text="Nursing"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox33" />
-    <CheckBox
-      android:text="Nutrition"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox34" />
-    <CheckBox
-      android:text="Philosophy"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox35" />
-    <CheckBox
-      android:text="Physical Education"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox36" />
-    <CheckBox
-      android:text="Political Science"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox37" />
-    <CheckBox
-      android:text="Professional Studies"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox38" />
-    <CheckBox
-      android:text="Psychology"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox39" />
-    <CheckBox
-      android:text="Social Work"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox40" />
-    <CheckBox
-      android:text="Sociology"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox41" />
-    <CheckBox
-      android:text="Special Education"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox42" />
-    <CheckBox
-      android:text="Sport and Leisure Management"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox43" />
-    <CheckBox
-      android:text="Theatre"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/checkBox44" />
-    <RelativeLayout
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/relativeLayout1"
-      android:gravity="bottom"
-      android:layout_marginTop="0.0dp">
-      <Button
-        android:text="Save"
-        android:id="@+id/save"
-        android:clickable="true"
-        android:textIsSelectable="false"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
-    </RelativeLayout>
-  </LinearLayout>
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <CheckBox
+            android:text="Accounting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox1"
+            android:layout_marginRight="0.0dp" />
+        <CheckBox
+            android:text="Allied Health Sciences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2" />
+        <CheckBox
+            android:text="Anthropology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3" />
+        <CheckBox
+            android:text="Applied Sciences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4" />
+        <CheckBox
+            android:text="Art &amp; Design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5" />
+        <CheckBox
+            android:text="Biology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox6" />
+        <CheckBox
+            android:text="Bluegrass, Old-Time and Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox7" />
+        <CheckBox
+            android:text="Chemistry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox8" />
+        <CheckBox
+            android:text="Communication and Performance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox9" />
+        <CheckBox
+            android:text="Community and Behavioral Health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox10" />
+        <CheckBox
+            android:text="Computing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox11" />
+        <CheckBox
+            android:text="Counseling and Human Services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox12" />
+        <CheckBox
+            android:text="Criminal Justice and Criminology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox13" />
+        <CheckBox
+            android:text="Digital Media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox14" />
+        <CheckBox
+            android:text="Early Childhood Development"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox15" />
+        <CheckBox
+            android:text="Economics and Finance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox16" />
+        <CheckBox
+            android:text="Educational Foundations / Special Education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox17" />
+        <CheckBox
+            android:text="Engineering Technology and Surveying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox18" />
+        <CheckBox
+            android:text="Environmental Health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox19" />
+        <CheckBox
+            android:text="General Studies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox20" />
+        <CheckBox
+            android:text="Geosciences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox21" />
+        <CheckBox
+            android:text="Graphic Design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox22" />
+        <CheckBox
+            android:text="Health Sciences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox23" />
+        <CheckBox
+            android:text="History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox24" />
+        <CheckBox
+            android:text="Human Services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox25" />
+        <CheckBox
+            android:text="International Affairs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox26" />
+        <CheckBox
+            android:text="Literature and Language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox27" />
+        <CheckBox
+            android:text="Management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox28" />
+        <CheckBox
+            android:text="Marketing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox29" />
+        <CheckBox
+            android:text="Mathematics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox30" />
+        <CheckBox
+            android:text="Media and Communication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox31" />
+        <CheckBox
+            android:text="Music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox32" />
+        <CheckBox
+            android:text="Nursing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox33" />
+        <CheckBox
+            android:text="Nutrition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox34" />
+        <CheckBox
+            android:text="Philosophy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox35" />
+        <CheckBox
+            android:text="Physical Education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox36" />
+        <CheckBox
+            android:text="Political Science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox37" />
+        <CheckBox
+            android:text="Professional Studies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox38" />
+        <CheckBox
+            android:text="Psychology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox39" />
+        <CheckBox
+            android:text="Social Work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox40" />
+        <CheckBox
+            android:text="Sociology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox41" />
+        <CheckBox
+            android:text="Special Education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox42" />
+        <CheckBox
+            android:text="Sport and Leisure Management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox43" />
+        <CheckBox
+            android:text="Theatre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox44" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1"
+            android:gravity="bottom"
+            android:layout_marginTop="0.0dp">
+            <Button
+                android:text="Save"
+                android:id="@+id/save"
+                android:clickable="true"
+                android:textIsSelectable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
 </ScrollView>
