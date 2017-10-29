@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using I18N.West;
 
 namespace Advisor_Sidekick_V2
 {
@@ -17,6 +18,8 @@ namespace Advisor_Sidekick_V2
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            // ReSharper disable once ObjectCreationAsStatement
+            new CP1250();
             var d = new DbConnect();
             var login = FindViewById<Button>(Resource.Id.loginButton);
             var register = FindViewById<Button>(Resource.Id.registerButton);

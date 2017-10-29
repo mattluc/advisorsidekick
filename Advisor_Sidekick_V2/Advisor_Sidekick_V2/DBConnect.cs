@@ -25,10 +25,15 @@ namespace Advisor_Sidekick_V2
             _database = "advisorsidekick";
             _uid = "kolsch";
             _password = "teamkolsch";
-            var connectionString = "SERVER=" + _server + ";" + "DATABASE=" +
-                                   _database + ";" + "UID=" + _uid + ";" + "PASSWORD=" + _password + ";";
+            var connectionString = "Server=" + _server + ";" + "User=" +
+                                   _uid + ";" + "Database=" + _database + ";Port=3306;" + "Password=" + _password +
+                                   ";charset=utf8";
 
             _connection = new MySqlConnection(connectionString);
+
+            //for connection testing on initialization instead of during operation
+            //_connection.Open();
+            //_connection.Close();
         }
 
         //open connection to database
@@ -91,17 +96,16 @@ namespace Advisor_Sidekick_V2
                 + email + "');";
 
             //open connection
-            if (OpenConnection())
-            {
-                //create command and assign the query and connection from the constructor
-                var cmd = new MySqlCommand(query, _connection);
+            if (!OpenConnection()) return;
 
-                //Execute command
-                cmd.ExecuteNonQuery();
+            //create command and assign the query and connection from the constructor
+            var cmd = new MySqlCommand(query, _connection);
 
-                //close connection
-                CloseConnection();
-            }
+            //Execute command
+            cmd.ExecuteNonQuery();
+
+            //close connection
+            CloseConnection();
         }
 
         //Update statement

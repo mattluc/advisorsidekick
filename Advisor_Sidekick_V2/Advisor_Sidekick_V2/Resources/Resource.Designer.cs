@@ -44,11 +44,11 @@ namespace Advisor_Sidekick_V2
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f04003a
-			public const int addressEditBox = 2130968634;
+			// aapt resource value: 0x7f04003c
+			public const int addressEditBox = 2130968636;
 			
-			// aapt resource value: 0x7f040039
-			public const int addressTextBox = 2130968633;
+			// aapt resource value: 0x7f04003b
+			public const int addressTextBox = 2130968635;
 			
 			// aapt resource value: 0x7f040006
 			public const int checkBox1 = 2130968582;
@@ -182,38 +182,44 @@ namespace Advisor_Sidekick_V2
 			// aapt resource value: 0x7f04000e
 			public const int checkBox9 = 2130968590;
 			
-			// aapt resource value: 0x7f04003f
-			public const int emailEditBox = 2130968639;
+			// aapt resource value: 0x7f040042
+			public const int emailEditBox = 2130968642;
 			
-			// aapt resource value: 0x7f04003e
-			public const int emailTextBox = 2130968638;
-			
-			// aapt resource value: 0x7f040036
-			public const int firstNameEditBox = 2130968630;
-			
-			// aapt resource value: 0x7f040035
-			public const int firstNameTextBox = 2130968629;
-			
-			// aapt resource value: 0x7f04003d
-			public const int highschoolEditBox = 2130968637;
-			
-			// aapt resource value: 0x7f04003c
-			public const int highschoolTextBox = 2130968636;
+			// aapt resource value: 0x7f040041
+			public const int emailTextBox = 2130968641;
 			
 			// aapt resource value: 0x7f040038
-			public const int lastNameEditBox = 2130968632;
+			public const int firstNameEditBox = 2130968632;
 			
 			// aapt resource value: 0x7f040037
-			public const int lastNameTextBox = 2130968631;
+			public const int firstNameTextBox = 2130968631;
+			
+			// aapt resource value: 0x7f040040
+			public const int highschoolEditBox = 2130968640;
+			
+			// aapt resource value: 0x7f04003f
+			public const int highschoolTextBox = 2130968639;
+			
+			// aapt resource value: 0x7f04003a
+			public const int lastNameEditBox = 2130968634;
+			
+			// aapt resource value: 0x7f040039
+			public const int lastNameTextBox = 2130968633;
 			
 			// aapt resource value: 0x7f040004
 			public const int loginButton = 2130968580;
 			
+			// aapt resource value: 0x7f040036
+			public const int passwordEditBox = 2130968630;
+			
 			// aapt resource value: 0x7f040003
 			public const int passwordTBox = 2130968579;
 			
-			// aapt resource value: 0x7f04003b
-			public const int phoneNumberEditBox = 2130968635;
+			// aapt resource value: 0x7f04003e
+			public const int phoneNumberEditBox = 2130968638;
+			
+			// aapt resource value: 0x7f04003d
+			public const int phoneNumberTextBox = 2130968637;
 			
 			// aapt resource value: 0x7f040005
 			public const int registerButton = 2130968581;
@@ -232,6 +238,9 @@ namespace Advisor_Sidekick_V2
 			
 			// aapt resource value: 0x7f040002
 			public const int textView2 = 2130968578;
+			
+			// aapt resource value: 0x7f040035
+			public const int usernameEditBox = 2130968629;
 			
 			// aapt resource value: 0x7f040001
 			public const int usernameTbox = 2130968577;
