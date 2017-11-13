@@ -66,17 +66,15 @@ namespace Advisor_Sidekick_V2
         }
 
         //Close connection
-        private bool CloseConnection()
+        private void CloseConnection()
         {
             try
             {
                 _connection.Close();
-                return true;
             }
             catch (MySqlException ex)
             {
                 Console.WriteLine(ex.Message);
-                return false;
             }
         }
 
@@ -106,6 +104,26 @@ namespace Advisor_Sidekick_V2
 
             //close connection
             CloseConnection();
+        }
+
+        public string VerifyPass(string username)
+        {
+            if (!OpenConnection()) return "";
+
+            var password = "";
+            var query = "SELECT PASSWORD FROM USER WHERE USERNAME='" + username + "';";
+
+            var cmd = new MySqlCommand(query, _connection);
+
+            var dr = cmd.ExecuteReader();
+            while (dr.Read())
+                password = dr["PASSWORD"] + "";
+
+
+            //close connection
+            CloseConnection();
+
+            return password;
         }
 
         //Update statement

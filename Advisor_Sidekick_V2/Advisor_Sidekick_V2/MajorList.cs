@@ -4,7 +4,7 @@ using Android.Widget;
 
 namespace Advisor_Sidekick_V2
 {
-    [Activity(Theme = "@android:style/Theme.Material.Light", Label = "Select Majors", MainLauncher = true)]
+    [Activity(Theme = "@android:style/Theme.Material.Light", Label = "Select Majors")]
     // ReSharper disable once UnusedMember.Global
     public class MajorList : Activity
     {

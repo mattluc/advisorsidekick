@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using static BCrypt.Net.BCrypt;
 
 namespace Advisor_Sidekick_V2
 {
@@ -24,15 +25,19 @@ namespace Advisor_Sidekick_V2
             var phone = FindViewById<EditText>(Resource.Id.phoneNumberEditBox);
             var highschool = FindViewById<EditText>(Resource.Id.highschoolEditBox);
             var email = FindViewById<EditText>(Resource.Id.emailEditBox);
+            const string hardSalt = "ETSU";
 
             var register = FindViewById<Button>(Resource.Id.registerButton);
 
             register.Click += (o, e) =>
             {
                 var success = false;
+
                 try
                 {
-                    d.InsertNewUser(username.Text, password.Text, firstname.Text, lastname.Text,
+                    var hash = HashPassword(password.Text + hardSalt);
+                    //Eg.) For "password", hash "passwordETSU" with generated salt
+                    d.InsertNewUser(username.Text.ToLower(), hash, firstname.Text, lastname.Text,
                         address.Text, phone.Text, highschool.Text, email.Text);
                     success = true;
                 }
